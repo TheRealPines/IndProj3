@@ -1,37 +1,27 @@
-Welcome to Glitch
-=================
+Welcome to the Glitch BETA
+=========================
 
 Click `Show` in the header to see your app live. Updates to your code will instantly deploy and update live.
 
-**Glitch** is the friendly community where you'll build the app of your dreams. Glitch lets you instantly create, remix, edit, and host an app, bot or site, and you can invite collaborators or helpers to simultaneously edit code with you.
+Glitch is a developer playground that lets you code a real web-app without the slow setup and deployment steps.
 
-Find out more [about Glitch](https://glitch.com/about).
+[About Glitch](https://glitch.com/about)
 
 
 Your Project
 ------------
 
-### ← README.md
+On the back-end,
+- your app starts at `server.js`
+- add frameworks and packages in `package.json`
+- safely store app secrets in `.env`
 
-That's this file, where you can tell people what your cool website does and how you built it.
+On the front-end,
+- edit `public/client.js`, `public/style.css` and `views/index.html`
+- drag in `assets`, like images or music, to add them to your project
 
-### ← index.html
 
-Where you'll write the content of your website. 
-
-### ← style.css
-
-CSS files add styling rules to your content.
-
-### ← script.js
-
-If you're feeling fancy you can add interactivity to your site with JavaScript.
-
-### ← assets
-
-Drag in `assets`, like images or music, to add them to your project
-
-Made by [Glitch](https://glitch.com/)
--------------------
+Made by Fog Creek
+-----------------
 
 \ ゜o゜)ノ
