@@ -22,4 +22,4 @@ function calcTotal(){
   
 }
 
-document.getElementById("submit").addEventListener("click", calcTotal);
+document.getElementById("submit").addEventListener("click", calcTotal); //wll run the function when i click on the main submit button
