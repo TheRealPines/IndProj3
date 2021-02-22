@@ -36,7 +36,7 @@
   border: none;
   outline: 0;
   padding: 12px;
-  color: white;
+  color: #568396;
   background-color: #000;
   text-align: center;
   cursor: pointer;
@@ -47,6 +47,27 @@
 .button:hover {
   opacity: 0.7;
 }
+    
+.fancy {
+  background-color: black;
+  border: none;
+  color: #568396;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+  width: 90%;
+  
+
+}
+    
+.center{
+  margin: auto;
+  width: 90%;
+    }
 </style>
   
 
@@ -75,58 +96,63 @@
       <br>
       <br>
       <!-- Ankle Weights Card -->
-      <div class="cards">
-        <img src="https://cdn.glitch.com/d192e348-ac7e-4603-9d38-a5b38122b203%2F71dhYAnBUIL._AC_SL1500_.jpg?v=1613962148506" alt="Ankle Weights" style="width:35%">
-        <h1>Pack of Ankle Weights</h1>
-        <p class="price">$39.99</p>
-        <p>Have you ever wanted to train like Lee? Then these ankle weights are the choice for you.</p>
-        <p class="button">
-          <input type="checkbox" id="ankweights" value="39.99">
-          <label for="ankweights">Add To Cart</label>
-        </p>
-      </div>
+      <form>
+        <div class="cards">
+          <img src="https://cdn.glitch.com/d192e348-ac7e-4603-9d38-a5b38122b203%2F71dhYAnBUIL._AC_SL1500_.jpg?v=1613962148506" alt="Ankle Weights" style="width:35%">
+          <h1>Pack of Ankle Weights</h1>
+          <p class="price">$39.99</p>
+          <p>Have you ever wanted to train like Lee? Then these ankle weights are the choice for you.</p>
+          <p class="button">
+            <input type="checkbox" id="ankweights" value="39.99">
+            <label for="ankweights">Add To Cart</label>
+          </p>
+        </div>
+
+        <!-- Dumbbell Card -->
+        <div class="cards">
+          <img src="https://cdn.glitch.com/d192e348-ac7e-4603-9d38-a5b38122b203%2F7118Rf3YHCL._AC_SL1500_.jpg?v=1613962978692" alt="Adjustable Dumbbell" style="width:34.8%">
+          <h1>Adjustable Dumbbell</h1>
+          <p class="price">$199.99</p>
+          <p>This adjustable dumbbell is great for all types of workout. This is going to be your one dumbbell for all workouts.</p>
+          <p class="button">
+            <input type="checkbox" id="dumbbell" value="199.99">
+            <label for="dumbbell">Add To Cart</label>
+          </p>
+        </div>
+
+        <!-- Barbell Card -->
+        <div class="cards">
+          <img src="https://cdn.glitch.com/d192e348-ac7e-4603-9d38-a5b38122b203%2F71ITkUBvSjL._AC_SL1500_.jpg?v=1613963191552" alt="Barbell" style="width:40.4%">
+          <h1>Olympic Barbell</h1>
+          <p class="price">$167.78</p>
+          <p>This olympic ballbell is great for most compound exercies. With its traditional 45 lbs its great for bench, suats, deadlifts, etc.</p>
+          <p class="button">
+            <input type="checkbox" id="barbell" value="167.78">
+            <label for="barbell">Add To Cart</label>
+          </p>
+        </div>
+
+        <!-- Weighted Vest Card -->
+        <div class="cards">
+          <img src="https://cdn.glitch.com/d192e348-ac7e-4603-9d38-a5b38122b203%2F71OAnW7hUyL._AC_SL1080_.jpg?v=1613963434055" alt="Weighted Vest" style="width:35%">
+          <h1>Weighted Vest</h1>
+          <p class="price">$119.99</p>
+          <p>The Weighted Vest is made with premium nylon that holds up to sweat and dirt, extreme tactical training and intense workouts.</p>
+          <p class="button">
+            <input type="checkbox" id="vest" value="119.99">
+            <label for="vest">Add To Cart</label>
+          </p>
+        </div>
       
-      <!-- Dumbbell Card -->
-      <div class="cards">
-        <img src="https://cdn.glitch.com/d192e348-ac7e-4603-9d38-a5b38122b203%2F7118Rf3YHCL._AC_SL1500_.jpg?v=1613962978692" alt="Adjustable Dumbbell" style="width:34.8%">
-        <h1>Adjustable Dumbbell</h1>
-        <p class="price">$199.99</p>
-        <p>This adjustable dumbbell is great for all types of workout. This is going to be your one dumbbell for all workouts.</p>
-        <p class="button">
-          <input type="checkbox" id="dumbbell" value="199.99">
-          <label for="dumbbell">Add To Cart</label>
-        </p>
-      </div>
-      
-      <!-- Barbell Card -->
-      <div class="cards">
-        <img src="https://cdn.glitch.com/d192e348-ac7e-4603-9d38-a5b38122b203%2F71ITkUBvSjL._AC_SL1500_.jpg?v=1613963191552" alt="Barbell" style="width:40.4%">
-        <h1>Olympic Barbell</h1>
-        <p class="price">$167.78</p>
-        <p>This olympic ballbell is great for most compound exercies. With its traditional 45 lbs its great for bench, suats, deadlifts, etc.</p>
-        <p class="button">
-          <input type="checkbox" id="barbell" value="167.78">
-          <label for="barbell">Add To Cart</label>
-        </p>
-      </div>
-      
-      <!-- Weighted Vest Card -->
-      <div class="cards">
-        <img src="https://cdn.glitch.com/d192e348-ac7e-4603-9d38-a5b38122b203%2F71OAnW7hUyL._AC_SL1080_.jpg?v=1613963434055" alt="Weighted Vest" style="width:35%">
-        <h1>Weighted Vest</h1>
-        <p class="price">$119.99</p>
-        <p>The Weighted Vest is made with premium nylon that holds up to sweat and dirt, extreme tactical training and intense workouts.</p>
-        <p class="button">
-          <input type="checkbox" id="vest" value="119.99">
-          <label for="vest">Add To Cart</label>
-        </p>
-      </div>
-      
-      
-    </div>
+    
     
     <!-- This button will send the signal to JavaScript to calculate the total. -->
-    <input class="left" type="button" id="submit" value="Submit" />
+        <div class="bcenter">
+          <input class="fancy" type="button" id="submit" value="Submit" />
+        </div>
+      </form>
+        
+    </div>
     <script src="script.js"></script>
   </body>
   <footer>

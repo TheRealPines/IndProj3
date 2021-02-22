@@ -18,7 +18,7 @@ function calcTotal(){
   //now calculating the real total with tax and everthing
   var taxRate = 1.06;
   var total = itemTotal * taxRate;
-  alert ("Your order total is $" + orderTotal.toFixed(2)); //the toFixed(2 makes it so that there are only two decimal places)
+  alert ("Your order total is $" + total.toFixed(2)); //the toFixed(2 makes it so that there are only two decimal places)
   
 }
 
